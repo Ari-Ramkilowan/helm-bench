@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "input_text": {
+      "type": "string",
+      "minLength": 50,
+      "maxLength": 2000,
+      "description": "Business email content to be summarized"
+    },
+    "expected_output": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 500,
+      "description": "Expected summary with 2-3 key action items",
+      "pattern": ".*•.*"
+    }
+  },
+  "required": ["input_text"],
+  "additionalProperties": false
+}

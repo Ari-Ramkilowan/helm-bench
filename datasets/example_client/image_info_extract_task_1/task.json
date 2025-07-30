@@ -1,0 +1,20 @@
+{
+  "task_id": "invoice_data_extraction",
+  "task_type": "image_information_extraction",
+  "client_id": "example_client",
+  "description": "Extract key information from invoice images: vendor, amount, date, invoice number",
+  "data_source": {
+    "type": "synthetic",
+    "privacy_level": "public", 
+    "format": "image_jsonl",
+    "count": 3,
+    "schema_file": "invoice_schema.json"
+  },
+  "evaluation_criteria": [
+    "accuracy",
+    "completeness",
+    "format_consistency"
+  ],
+  "ground_truth_available": true,
+  "human_evaluation_required": true
+}

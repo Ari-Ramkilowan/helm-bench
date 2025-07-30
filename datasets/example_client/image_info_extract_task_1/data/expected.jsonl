@@ -1,0 +1,3 @@
+{"expected_output": "{\"vendor_name\": \"Tech Solutions Inc\", \"invoice_number\": \"INV-2024-001\", \"invoice_date\": \"2024-01-15\", \"total_amount\": \"1,250.00\", \"currency\": \"USD\"}"}
+{"expected_output": "{\"vendor_name\": \"ACME Corporation\", \"invoice_number\": \"AC-2024-0456\", \"invoice_date\": \"2024-01-22\", \"total_amount\": \"3,847.50\", \"currency\": \"USD\"}"}
+{"expected_output": "{\"vendor_name\": \"Office Depot\", \"invoice_number\": \"RCP-789123\", \"invoice_date\": \"2024-01-18\", \"total_amount\": \"156.78\", \"currency\": \"USD\"}"}

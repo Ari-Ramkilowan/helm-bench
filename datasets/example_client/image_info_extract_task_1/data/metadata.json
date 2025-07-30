@@ -1,0 +1,24 @@
+{
+  "created_date": "2025-01-30",
+  "created_by": "helm_bench_system",
+  "data_source": {
+    "type": "synthetic",
+    "privacy_level": "public",
+    "description": "Synthetic invoice and receipt images for testing document information extraction"
+  },
+  "evaluation_info": {
+    "total_samples": 3,
+    "ground_truth_available": true,
+    "evaluation_criteria": [
+      "accuracy - correct extraction of key fields",
+      "completeness - all required fields extracted", 
+      "format_consistency - structured JSON output"
+    ]
+  },
+  "data_quality": {
+    "validated": true,
+    "schema_compliance": true,
+    "image_quality": "high_resolution",
+    "last_reviewed": "2025-01-30"
+  }
+}

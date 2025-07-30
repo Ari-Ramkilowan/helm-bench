@@ -1,0 +1,23 @@
+{
+  "created_date": "2025-01-30",
+  "created_by": "helm_bench_system",
+  "data_source": {
+    "type": "synthetic",
+    "privacy_level": "public",
+    "description": "Synthetically generated business email scenarios for testing email summarization capabilities"
+  },
+  "evaluation_info": {
+    "total_samples": 5,
+    "ground_truth_available": true,
+    "evaluation_criteria": [
+      "accuracy - does summary capture key information",
+      "conciseness - is summary appropriately brief",
+      "actionability - are action items clearly identified"
+    ]
+  },
+  "data_quality": {
+    "validated": true,
+    "schema_compliance": true,
+    "last_reviewed": "2025-01-30"
+  }
+}

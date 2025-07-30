@@ -1,0 +1,3 @@
+{"image_path": "images/sample_image_1.png", "input_prompt": "Extract vendor, invoice number, date, amount, and currency from this invoice.", "metadata": {"doc_type": "invoice", "complexity": "simple"}}
+{"image_path": "images/invoice_acme_corp.png", "input_prompt": "Extract key billing information from this invoice image.", "metadata": {"doc_type": "invoice", "complexity": "medium"}}
+{"image_path": "images/receipt_office_supplies.png", "input_prompt": "Identify vendor, total amount, date, and item details from this receipt.", "metadata": {"doc_type": "receipt", "complexity": "simple"}}

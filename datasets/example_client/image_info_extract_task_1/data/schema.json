@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "image_path": {
+      "type": "string",
+      "pattern": "^images/.*\\.(png|jpg|jpeg|pdf)$",
+      "description": "Relative path to image file"
+    },
+    "input_prompt": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 200,
+      "description": "Instruction prompt for information extraction"
+    },
+    "expected_output": {
+      "type": "string",
+      "description": "Expected JSON output with extracted information",
+      "pattern": "^\\{.*\\}$"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "doc_type": {"type": "string", "enum": ["invoice", "receipt", "contract", "form"]},
+        "complexity": {"type": "string", "enum": ["simple", "medium", "complex"]}
+      }
+    }
+  },
+  "required": ["image_path", "input_prompt"],
+  "additionalProperties": false
+}

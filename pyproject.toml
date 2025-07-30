@@ -18,3 +18,6 @@ dev = [
     "pytest>=8.4.1",
     "ruff>=0.5.5",
 ]
+
+[project.scripts]
+# CLI entry points will go here when implemented
